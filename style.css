@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background: url("https://xatimg.com/image/3aVu4Ug1r3p2.png") center/cover no-repeat fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.profile-card {
+    text-align: center;
+    padding: 25px 35px;
+    border-radius: 22px;
+    background: rgba(0,0,0,0.15);
+    border: 1px solid rgba(0,170,255,0.2); 
+    width: 390px;
+}
+
+.avatar {
+    width: 130px;
+    height: 130px;
+    margin: 0 auto 15px;
+    border-radius: 50%;
+    padding: 4px;
+    background: radial-gradient(circle, #00c3ff 0%, transparent 70%);
+    box-shadow: 0 0 18px rgba(0,180,255,.55);
+}
+
+.avatar img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 33px;
+    margin: 5px 0;
+    font-weight: 600;
+}
+
+.id, .country {
+    opacity: .85;
+    font-size: 15px;
+}
+
+.bio {
+    font-size: 15px;
+    line-height: 1.45em;
+    opacity: .95;
+    margin-top: 12px;
+}
+
+.relation {
+    margin-top: 22px;
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 14px;
+    text-decoration: none;
+    font-weight: 600;
+    background: rgba(255,0,80,0.30);
+    color: #ff94a2;
+    transition: .25s;
+}
+
+.relation:hover {
+    background: rgba(255,0,80,0.50);
+    color: #fff;
+}
